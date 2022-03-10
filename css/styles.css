@@ -206,7 +206,6 @@ p a:hover {
 /*TABLET + MOBILE*/
 @media (min-width: 1px) and (max-width: 1440px) {
     #top {
-        bottom: 30px;
         right: 30px;
         padding: 18px;
         border-radius: 18px;
@@ -270,7 +269,6 @@ p a:hover {
 /*MOBILE*/
 @media (min-width: 1px) and (max-width: 900px) {
     #top {
-        bottom: 30px;
         right: auto;
         left: 30px;
         padding: 15px;
