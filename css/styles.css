@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
 
 ::selection {
     background: #CF1C4F;
 }
 
 body {
-    background-image: linear-gradient(to right, #092882, #F4EDE4 50%, #092882);
+    background-image: linear-gradient(to right, white, #F4EDE4 50%, white);
     text-align: center;
-    text-transform: uppercase;
     font-family: 'Teko', sans-serif;
     margin: 0;
 }
@@ -20,12 +19,14 @@ body {
     z-index: 69;
     border: none;
     outline: none;
-    background-color: #CF1C4F;
-    color: #F4EDE4;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #CF1C4F;
     cursor: pointer;
     padding: 20px;
-    border-radius: 30px;
     font-size: 30pt;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CF1C4F;
     transition: all 0.5s;
 }
 
@@ -33,7 +34,7 @@ body {
     background-color: rgba(244, 237, 228, 0.7);
     width: 70%;
     margin: auto;
-    border: 20px dashed rgba(9, 40, 130, 0.6);
+    border: 20px dashed white;
     border-top-style: none;
     border-bottom-style: none;
     outline: 10px solid rgba(244, 237, 228, 0.7);
@@ -62,7 +63,7 @@ h6 {
 }
 
 input {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.35);
     border-width: 2px;
     border-color: #092882;
     border-right-style: none;
@@ -93,16 +94,21 @@ select {
 
 option {
     display: inline-block;
-    margin: 20px;
+    margin: 20px 10px;
     font-size: 18pt;
-    padding: 8px 10px 5px 10px;
-    color: white;
-    border-radius: 15px;
-    background: #CF1C4F;
+    padding: 8px 8px 5px 8px;
+    color: #092882;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #092882;
 }
 
 #showall {
-    background: #092882;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-color: #CF1C4F;
+    color: #CF1C4F;
 }
 
 p {
@@ -119,16 +125,14 @@ p {
 
 .mix {
     width: 90%;
-    background: #F4EDE4;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #092882;
-    border-radius: 30px;
+    background-image: linear-gradient(to right, #092882, #4D6AAC);
+    border-radius: 18px;
     margin-bottom: 15px;
     opacity: 100%;
     box-shadow: 0px 0px 0px rgb(0 0 0 / 0);
     transition: all 0.5s;
     display: block;
+    color: white;
 }
 
 .mix:hover {
@@ -137,7 +141,7 @@ p {
 }
 
 .pat {
-    border-color: #CF1C4F;
+    background-image: linear-gradient(to right, #CF1C4F, #EB4170);
     margin-left: auto;
     margin-right: 0;
 }
@@ -152,6 +156,7 @@ h2 {
     margin: auto;
     padding-top: 12px;
     padding-bottom: 2px;
+    font-weight: 500;
 }
 
 .ratings {
@@ -161,32 +166,40 @@ h2 {
 }
 
 .blu {
-    color: #092882;
-    font-weight: 600;
+    color: #F4EDE4;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .red {
-    color: #CF1C4F;
-    font-weight: 600;
+    color: #F4EDE4;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 a:link, a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
     transition: color .5s;
 }
 
 .mix a:hover {
-    color: #092882;
+    color: #F4EDE4;
     transition: color .5s;
 }
 
 .pat a:hover {
-    color: #CF1C4F;
+    color: #F4EDE4;
 }
 
 .link {
     padding-top: 15px;
+        text-transform: uppercase;
+
+}
+
+p a {
+    color: #092882!important;
 }
 
 p a:hover {
@@ -202,7 +215,6 @@ p a:hover {
     #top {
         right: 30px;
         padding: 18px;
-        border-radius: 18px;
         font-size: 18pt;
         transition: all 0.5s;
     }
@@ -210,7 +222,7 @@ p a:hover {
     #tray {
         background-color: rgba(244, 237, 228, 0.8);
         width: 90%;
-        border: 20px dashed rgba(9, 40, 130, 0.9);
+        border: 20px dashed white;
         border-top-style: none;
         border-bottom-style: none;
         outline: 10px solid rgba(244, 237, 228, 0.8);
@@ -237,7 +249,7 @@ p a:hover {
 
     .mix {
         width: 95%;
-        border-radius: 20px;
+        border-radius: 12px;
         border-width: 2px;
         transition: all 0.5s;
     }
@@ -267,13 +279,12 @@ p a:hover {
         right: auto;
         left: 25px;
         padding: 15px;
-        border-radius: 15px;
         font-size: 15pt;
         transition: all 0.5s;
     }
     
     #tray {
-        border: 10px dashed rgba(9, 40, 130, 0.9);
+        border: 10px dashed white;
         border-top-style: none;
         border-bottom-style: none;
         outline: 5px solid rgba(244, 237, 228, 0.8);
@@ -285,11 +296,10 @@ p a:hover {
     }
 
     option {
-        margin: 10px 2px;
+        margin: 10px 1px;
         font-size: 10pt;
-        padding: 6px 2px 4px 2px;
-        border-radius: 10px;
-        background: #CF1C4F;
+        font-weight: 400;
+        padding: 6px 4px 4px 4px;
     }
 
     input {
