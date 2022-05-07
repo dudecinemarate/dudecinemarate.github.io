@@ -132,7 +132,7 @@ p {
     box-shadow: 0px 0px 0px rgb(0 0 0 / 0);
     transition: all 0.5s;
     display: block;
-    color: white;
+    color: #FAFAFA;
 }
 
 .mix:hover {
@@ -178,7 +178,7 @@ h2 {
 }
 
 a:link, a:visited {
-    color: white;
+    color: #FAFAFA;
     text-decoration: none;
     transition: color .5s;
 }
