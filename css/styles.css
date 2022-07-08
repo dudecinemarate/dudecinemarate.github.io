@@ -272,6 +272,9 @@ p a:hover {
 
 /*MOBILE*/
 @media (min-width: 1px) and (max-width: 900px) {
+    body {
+        background: #EAE0D4;
+    }
     #top {
         bottom: 25px;
         right: auto;
@@ -282,7 +285,7 @@ p a:hover {
     }
     
     #tray {
-        border: 10px dashed #FAFAFA;
+        border: 10px dashed #EAE0D4;
         border-top-style: none;
         border-bottom-style: none;
         outline: 5px solid #EAE0D4;
