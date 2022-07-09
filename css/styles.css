@@ -285,10 +285,10 @@ p a:hover {
     }
     
     #tray {
-        border: 10px solid #FAFAFA;
+        border: 10px solid #FAFAFA!important;
         border-top-style: none;
         border-bottom-style: none;
-        outline: 5px solid #FAFAFA;
+        outline: 5px solid #FAFAFA!important;
     }
 
     select {
