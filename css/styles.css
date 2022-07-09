@@ -285,7 +285,7 @@ p a:hover {
     }
     
     #tray {
-        border: 10px dashed #FAFAFA;
+        border: 10px solid #FAFAFA;
         border-top-style: none;
         border-bottom-style: none;
         outline: 5px solid #FAFAFA;
