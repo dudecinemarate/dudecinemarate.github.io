@@ -288,7 +288,7 @@ p a:hover {
         border: 10px dashed #EAE0D4;
         border-top-style: none;
         border-bottom-style: none;
-        outline: 5px solid #EAE0D4;
+        outline: 5px solid #FAFAFA;
     }
 
     select {
