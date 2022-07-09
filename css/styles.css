@@ -273,7 +273,7 @@ p a:hover {
 /*MOBILE*/
 @media (min-width: 1px) and (max-width: 900px) {
     body {
-        background: #EAE0D4;
+        background: #FAFAFA;
     }
     #top {
         bottom: 25px;
