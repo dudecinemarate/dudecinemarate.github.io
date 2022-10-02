@@ -294,7 +294,11 @@ p a:hover {
         border-bottom-style: none!important;
         outline: 5px solid #f9f6fb!important;
     }
-
+    
+    #intro {
+        padding-top: 10px;
+    }
+    
     select {
         margin-top: 10px;
         height: 60px;
