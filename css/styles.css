@@ -136,7 +136,7 @@ p {
     box-shadow: 4px 4px 6px rgba(9, 1, 4, 0.25);
     transition: all 0.5s;
     display: block;
-    color: #FAFAFA;
+    color: #f9f6fb;
 }
 
 .mix:hover {
