@@ -84,7 +84,7 @@ input {
 select {
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
-    overflow-y: hidden;
+    overflow: clip;
     background: none;
     border-style: none;
     text-align: center;
