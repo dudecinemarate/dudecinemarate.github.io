@@ -92,6 +92,10 @@ select {
     height: 90px;
 }
 
+select::-webkit-scrollbar {
+    display: none;
+}
+
 option {
     display: inline-block;
     margin: 20px 10px;
@@ -183,6 +187,10 @@ h2 {
     font-weight: 500;
 }
 
+.emoji {
+    font-size: 20pt;
+}
+
 a:link, a:visited {
     color: #f9f6fb;
     text-decoration: none;
@@ -269,8 +277,8 @@ p a:hover {
         margin: auto;
     }
 
-    #footer {
-        
+    .emoji {
+        font-size: 16pt;
     }
 }
 
