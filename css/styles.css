@@ -92,7 +92,7 @@ select {
     height: 90px;
 }
 
-select::-webkit-scrollbar {
+option::-webkit-scrollbar {
     display: none;
 }
 
