@@ -90,6 +90,7 @@ select {
     text-align: center;
     margin-top: 10px;
     height: 90px;
+    scrollbar-width: none;
 }
 
 option {
