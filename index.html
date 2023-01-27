@@ -6,13 +6,13 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Dude Cinema Ratings</title>
     <meta name="description" content="Dude Cinema podcast fansite with all movies and ratings.">
-    <link rel="manifest" href="/site.webmanifest"/>
+    <link rel="manifest" href="/site.webmanifest" />
     <link href="css/styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <button onclick="topReturn()" id="top" title="Return to top">&#9650;</button> 
+    <button onclick="topReturn()" id="top" title="Return to top">&#9650;</button>
     <div id="tray">
         <img src="img/dude-cinema-header.png" alt="The Ladies Guide to Dude Cinema logotype.">
         <div>
@@ -31,7 +31,7 @@
         <div class="container">
             <!--MAIN: COPY FROM HERE-->
             <div class="mix rec date main">
-                <h2><a href="https://www.imdb.com/title/tt11813216/" target="_blank">209. The  Banshees of Inisherin</a></h2>
+                <h2><a href="https://www.imdb.com/title/tt11813216/" target="_blank">209. The Banshees of Inisherin</a></h2>
                 <div class="ratings">
                     <h6>Alex: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h6>
                     <h6>Bec: <span class="blu">&#9733;&#9734;&#9734;&#9734;&#9734;</span></h6>
@@ -3065,24 +3065,28 @@
             </div>
             <!--MAIN: TO HERE-->
         </div>
-        
+
         <p class="link"><a href="about/">[More info on The Ladies Guide to Dude Cinema podcast and this website]</a></p>
         <img id="footer" src="img/dude-cinema-footer.png" alt="Alex Jae and Bec Charlwood newsprint art.">
     </div>
-    
+
     <script>
         mybutton = document.getElementById("top");
-        window.onscroll = function() {scroll()};
+        window.onscroll = function() {
+            scroll()
+        };
+
         function scroll() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.opacity = "1";
-          } else {
-            mybutton.style.opacity = "0";
-          }
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.opacity = "1";
+            } else {
+                mybutton.style.opacity = "0";
+            }
         }
+
         function topReturn() {
-          document.body.scrollTop = 0; // For Safari
-          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
         $('#checkbox-group').on('change', function() {
             var number = $(this).val();
@@ -3102,6 +3106,4 @@
             });
         });
     </script>
-</body>
-
-</html>
+</body></html>
