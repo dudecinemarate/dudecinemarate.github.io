@@ -46,6 +46,12 @@ img {
     margin: auto;
 }
 
+h1 {
+    font-size: 40pt;
+    font-weight: 500;
+    padding: 20px 0 35px 0;
+}
+
 h6 {
     font-size: 26pt;
     margin: 0 1.5%;
@@ -129,7 +135,6 @@ p {
 }
 
 .mix {
-    width: 90%;
     background-image: linear-gradient(to right, #4e0673, #900bdf);
     border-radius: 18px;
     margin-bottom: 15px;
@@ -155,6 +160,16 @@ p {
 
 .pat:hover {
     box-shadow: -4px 4px 6px rgba(9, 1, 4, 0.5);
+}
+
+.award {
+    background-image: linear-gradient(to right, #900bdf, white);
+}
+
+.award a:link,
+.award a:visited {
+    color: black;
+    transition: color .5s;
 }
 
 h2 {
@@ -188,17 +203,20 @@ h2 {
     font-size: 20pt;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #f9f6fb;
     text-decoration: none;
     transition: color .5s;
 }
 
-.pat a:link, .pat a:visited {
+.pat a:link,
+.pat a:visited {
     color: #090104;
 }
 
-.mix a:hover {
+.mix a:hover,
+.award a:hover {
     color: #efdb71;
     transition: color .5s;
 }
@@ -213,11 +231,11 @@ a:link, a:visited {
 }
 
 p a {
-    color: #f9f6fb!important;
+    color: #f9f6fb !important;
 }
 
 p a:hover {
-    color: #efdb71!important;
+    color: #efdb71 !important;
 }
 
 /*TABLET + MOBILE*/
@@ -228,13 +246,18 @@ p a:hover {
         font-size: 18pt;
         transition: all 0.5s;
     }
-    
+
     #tray {
         width: 90%;
         border: 20px dashed #f9f6fb;
         border-top-style: none;
         border-bottom-style: none;
         outline: 10px solid #a11cf0;
+    }
+
+    h1 {
+        font-size: 32pt;
+        padding: 20px 0 30px 0;
     }
 
     h6 {
@@ -256,7 +279,6 @@ p a:hover {
     }
 
     .mix {
-        width: 95%;
         border-radius: 12px;
         border-width: 2px;
         transition: all 0.5s;
@@ -284,6 +306,7 @@ p a:hover {
     body {
         background: #f9f6fb;
     }
+
     #top {
         bottom: 25px;
         right: auto;
@@ -292,18 +315,24 @@ p a:hover {
         font-size: 15pt;
         transition: all 0.5s;
     }
-    
+
     #tray {
-        border: 10px solid #f9f6fb!important;
-        border-top-style: none!important;
-        border-bottom-style: none!important;
-        outline: 5px solid #f9f6fb!important;
+        border: 10px solid #f9f6fb !important;
+        border-top-style: none !important;
+        border-bottom-style: none !important;
+        outline: 5px solid #f9f6fb !important;
     }
-    
+
+    h1 {
+        font-size: 28pt;
+        line-height: 28pt !important;
+        padding: 20px 0 !important;
+    }
+
     #intro {
         padding-top: 10px;
     }
-    
+
     select {
         margin-top: 10px;
         height: 60px;
@@ -329,16 +358,15 @@ p a:hover {
     }
 
     .mix {
-        width: 100%;
         box-shadow: 0px 4px 6px rgba(9, 1, 4, 0.25);
         transition: all 0.5s;
     }
-    
+
     .mix:hover {
         box-shadow: 0px 4px 6px rgba(9, 1, 4, 0.5);
         transition: all 0.5s;
     }
-    
+
     .ratings {
         flex-direction: column;
     }
