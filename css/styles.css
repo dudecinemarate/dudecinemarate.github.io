@@ -163,12 +163,12 @@ p {
 }
 
 .award {
-    background-image: linear-gradient(to right, #900bdf, white);
+    background-image: linear-gradient(to left, #efdb71, white);
 }
 
 .award a:link,
 .award a:visited {
-    color: black;
+    color: #090104;
     transition: color .5s;
 }
 
@@ -215,13 +215,13 @@ a:visited {
     color: #090104;
 }
 
-.mix a:hover,
-.award a:hover {
+.mix a:hover {
     color: #efdb71;
     transition: color .5s;
 }
 
-.pat a:hover {
+.pat a:hover,
+.award a:hover {
     color: rebeccapurple;
 }
 
